@@ -147,6 +147,10 @@ a.nav-link:active {
 
 @media (max-width: 575.98px) {
 
+    .custom-nav {
+       padding: 4% 0;
+    }
+
     .navbar-toggler { 
         margin-left: 19rem;
     }
@@ -187,6 +191,10 @@ a.nav-link:active {
 
     p.dark-bg-description {
         font-size: 1.1rem;
+    }
+
+    .header-btn {
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -264,6 +272,10 @@ a.nav-link:active {
 
 .btn-rounded {
     border-radius: 30px;
+}
+
+.header-btn {
+    margin-top: 1.5rem;
 }
 
 .btn {
