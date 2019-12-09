@@ -143,9 +143,13 @@ a.nav-link:active {
     margin-left: auto;
 }
 
-/** MOBILE VIEW **/
+/******** MOBILE VIEW *********/
 
 @media (max-width: 575.98px) {
+    
+    .custom-nav {
+        padding: 4% 0;
+    }
 
     .custom-nav {
        padding: 4% 0;
