@@ -143,12 +143,12 @@ a.nav-link:active {
     margin-left: auto;
 }
 
-/** MOBILE VIEW **/
+/******** MOBILE VIEW *********/
 
 @media (max-width: 575.98px) {
     
     .custom-nav {
-        padding: 2% 0;
+        padding: 4% 0;
     }
 
     .navbar-toggler { 
