@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  if ( $(window).width() > 739) {
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         console.log(scroll, $('#cv').offset().top)
@@ -7,7 +8,13 @@ $(document).ready(function(){
         }
   
         else{
-            $(".custom-nav").css("background-color" , "transparent");  	
+            $(".custom-nav").css("background-color" , "transparent"); 
         }
     })
-  })
+  }
+  else{
+      let divElement = document.querySelector("#navigation");
+      divElement.classList.add("sticky-nav");
+      $(".sticky-nav").css("background-color" , "black");
+  } 
+})

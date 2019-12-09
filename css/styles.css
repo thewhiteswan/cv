@@ -1,3 +1,4 @@
+
 body {
     background-color: black;
 }
@@ -82,6 +83,10 @@ a {
 
 /******************** NAVIGATION ************************/
 
+.sticky-nav {
+    position: sticky;
+}
+
 .custom-nav {
     background-color: transparent;
     padding: 25px 0;
@@ -126,6 +131,10 @@ a.nav-link:active {
     margin-left: auto;
 }
 
+.navbar-toggler:not(:disabled):not(.disabled) {
+    outline-color: transparent;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -133,6 +142,54 @@ a.nav-link:active {
     margin-right: auto;
     margin-left: auto;
 }
+
+/** MOBILE VIEW **/
+
+@media (max-width: 575.98px) {
+
+    .navbar-toggler { 
+        margin-left: 19rem;
+    }
+
+    .navbar-collapse {
+        background-color: black;
+        margin: 20px 0;
+    }
+
+    .nav-link {
+        margin: 25px 0;
+    }
+
+    h1.header-title {
+        font-size: 55px;
+    }
+
+    .cv-exp .cv-exp-box {
+        margin-left: 5px !important; 
+        margin-right: 5px;
+    }
+
+    #cv.section {
+        padding-bottom: 0;
+    }
+
+    .cv-exp::after {
+        display: none;
+    }
+
+    .cv-exp .cv-exp-box .cv-exp-year::after {
+        display: none;
+    }
+
+    #recommendations {
+        display: none;
+    }
+
+    p.dark-bg-description {
+        font-size: 1.1rem;
+    }
+}
+
 
 /******************** INTRO ************************/
 
