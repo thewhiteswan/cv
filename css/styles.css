@@ -148,7 +148,7 @@ a.nav-link:active {
 @media (max-width: 575.98px) {
     
     .custom-nav {
-        padding: 2% 0;
+        padding: 1% 0;
     }
 
     .navbar-toggler { 
