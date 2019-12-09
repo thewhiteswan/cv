@@ -1,3 +1,10 @@
+
+$(document).ready(function () {
+  $("#navbarNav").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});
+
 $(document).ready(function(){
   if ( $(window).width() > 739) {
     $(window).scroll(function(){
