@@ -146,6 +146,10 @@ a.nav-link:active {
 /** MOBILE VIEW **/
 
 @media (max-width: 575.98px) {
+    
+    .custom-nav {
+        padding: 10px 0;
+    }
 
     .navbar-toggler { 
         margin-left: 19rem;
