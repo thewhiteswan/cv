@@ -201,6 +201,10 @@ a.nav-link:active {
 
 /******************** INTRO ************************/
 
+h1.header-title {
+    padding-top: 350px;
+}
+
 .subtitle {
     color: darkgray;
     margin: 0 10%;
@@ -289,7 +293,8 @@ a.btn:hover{
 }
 
 .scroll_down {
-    position: absolute;
+    position: relative;
+    padding: 200px 0 100px 0;
     bottom: 5vh;
     width: 100%;
     text-align: center;
@@ -309,6 +314,20 @@ a.btn:hover{
     display: inline-block;
     color: #fff;
     font-size: 12px;
+}
+
+/******** INTRO MOBILE VIEW *******/
+
+@media (max-width: 575.98px) {
+
+h1.header-title {
+    padding-top: 200px;
+}
+
+.scroll_down {
+    padding: 100px 0;
+}
+
 }
 
 
