@@ -206,13 +206,13 @@ h1.header-title {
 }
 
 .subtitle {
-    color: darkgray;
+    color: #fff;
     margin: 0 10%;
 }
 
 
 .intro-bg {
-    background-image: url(../images/josie-feature-pic.jpg);
+    background-image: url(../images/josie.png);
     background-position: center top;
     background-size: cover;
     display: flex;
@@ -225,7 +225,7 @@ h1.header-title {
 }
 
 .bg-overlay {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0;
     right: 0;
