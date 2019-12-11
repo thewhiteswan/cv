@@ -192,10 +192,6 @@ a.nav-link:active {
     p.dark-bg-description {
         font-size: 1.1rem;
     }
-
-    .header-btn {
-        margin-bottom: 1.5rem;
-    }
 }
 
 
@@ -280,6 +276,7 @@ h1.header-title {
 
 .header-btn {
     margin-top: 1.5rem;
+    padding-bottom: 200px;
 }
 
 .btn {
@@ -294,7 +291,7 @@ a.btn:hover{
 
 .scroll_down {
     position: relative;
-    padding: 200px 0 100px 0;
+    padding-bottom: 100px;
     bottom: 5vh;
     width: 100%;
     text-align: center;
@@ -324,8 +321,12 @@ h1.header-title {
     padding-top: 200px;
 }
 
+.header-btn {
+    padding-bottom: 100px;
+}
+
 .scroll_down {
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
 
 }
